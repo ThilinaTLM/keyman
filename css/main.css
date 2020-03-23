@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+body {
+  background-color: #ebebeb;
+  font-family: Montserrat, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+header {
+  margin: 0;
+  padding: auto;
+  width: 100%;
+  line-height: 4em;
+  text-align: center;
+  background-color: #212121;
+  color: #fff;
+  -webkit-box-shadow: 0px 5px 20px #00000055;
+          box-shadow: 0px 5px 20px #00000055;
+}
+
+header h1 {
+  margin: auto;
+  padding: 0;
+  font-size: 2em;
+}
+
+main {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 80%;
+  margin: 0;
+  padding: 5px 20px;
+}
+
+.card {
+  position: relative;
+  border-radius: 10px;
+  background-color: #000;
+  color: #ebebeb;
+  font-size: 3em;
+  line-height: 3em;
+  text-align: center;
+  width: 150px;
+  margin: 20px;
+  padding: 10px;
+  -webkit-box-shadow: 0 0 10px #00000055;
+          box-shadow: 0 0 10px #00000055;
+}
+
+.card p {
+  font-weight: 500;
+  margin: auto;
+}
+
+.love {
+  display: none;
+  position: relative;
+  border-radius: 10px;
+  background-color: #000;
+  color: #ebebeb;
+  text-align: center;
+  width: 9em;
+  margin: 20px;
+  padding: 10px;
+  -webkit-box-shadow: 0 0 10px #00000055;
+          box-shadow: 0 0 10px #00000055;
+}
+
+.love img {
+  width: 8em;
+  height: 8em;
+}
+
+.animate {
+  opacity: 0;
+  -webkit-animation: zoomIn 1.5s cubic-bezier(0, 0.99, 1, 1) forwards;
+          animation: zoomIn 1.5s cubic-bezier(0, 0.99, 1, 1) forwards;
+}
+
+@-webkit-keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=main.css.map */
