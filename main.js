@@ -34,12 +34,17 @@ function tacker(letter) {
 }
 
 function isEqualArr(arr1, arr2) {
-    let length = arr1.length;
-    for (let i = 0; i < length; i++) {
+    let arr1_len = arr1.length;
+	let arr2_len = arr2.length;
+	
+	if (arr1_len !== arr2_len) return false;
+	
+    for (let i = 0; i < arr1_len; i++) {
         if (arr1[i] !== arr2[i]) {
             return false;
         }
     }
+	
     return true;
 }
 
